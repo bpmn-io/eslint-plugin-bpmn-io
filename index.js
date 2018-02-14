@@ -38,7 +38,7 @@ module.exports = {
         sourceType: 'module'
       },
       extends: [
-        'eslint:bpmn-io/recommended'
+        'plugin:bpmn-io/recommended'
       ]
     },
     mocha: {
