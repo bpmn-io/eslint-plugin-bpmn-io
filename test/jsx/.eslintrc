@@ -1,6 +1,6 @@
 {
   "extends": [
-    "../../configs/es6.js",
-    "../../configs/jsx.js"
+    "plugin:bpmn-io/es6",
+    "plugin:bpmn-io/jsx"
   ]
 }

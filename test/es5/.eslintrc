@@ -1,6 +1,6 @@
 {
   "extends": [
-    "../../configs/es5.js"
+    "plugin:bpmn-io/es5"
   ],
   "globals": {
     "Blub": false

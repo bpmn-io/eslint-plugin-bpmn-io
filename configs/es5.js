@@ -3,6 +3,6 @@ module.exports = {
     ecmaVersion: 5
   },
   extends: [
-    './recommended.js'
+    'plugin:bpmn-io/recommended'
   ]
 };

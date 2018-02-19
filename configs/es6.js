@@ -7,6 +7,6 @@ module.exports = {
     sourceType: 'module'
   },
   extends: [
-    './recommended.js'
+    'plugin:bpmn-io/recommended'
   ]
 };
