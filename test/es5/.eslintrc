@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "../../configs/es5.js"
+  ],
+  "globals": {
+    "Blub": false
+  }
+}

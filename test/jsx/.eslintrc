@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "../../configs/es6.js",
+    "../../configs/jsx.js"
+  ]
+}
