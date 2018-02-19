@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-bpmn-io",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Shared lint rules for bpmn.io projects",
   "main": "index.js",
   "repository": {
