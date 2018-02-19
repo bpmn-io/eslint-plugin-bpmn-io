@@ -7,6 +7,10 @@
     "type": "git",
     "url": "git+ssh://git@github.com/bpmn-io/eslint-plugin-bpmn-io.git"
   },
+  "scripts": {
+    "all": "npm test",
+    "test": "eslint test"
+  },
   "keywords": [
     "eslint",
     "lint",
