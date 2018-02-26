@@ -11,14 +11,16 @@ function Foo(a, b, config) {
 
 inherits(Foo, Bar);
 
-
+/**
+ * Do foo
+ */
 Foo.prototype.foo = function(d) {
 
   var blub = Blub.blub.apply(Blub, d);
 
   return Object.assign({}, this.bar, {
     blub: blub,
-    d: d
+    d: add(d, 1)
   });
 };
 
@@ -27,3 +29,10 @@ Foo.prototype.longArgFn = function(
     wowo, wooooooooorld) {
 
 };
+
+
+// helpers
+
+function add(a, b) {
+  return a + b;
+}

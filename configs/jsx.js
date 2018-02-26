@@ -3,6 +3,7 @@ module.exports = {
     'react'
   ],
   rules: {
+    'react/jsx-curly-spacing': [ 2, { when: 'always' } ],
     'react/jsx-equals-spacing': 2,
     'react/jsx-indent': [ 2, 2 ],
     'react/jsx-indent-props': [ 2, 2 ],
@@ -16,7 +17,6 @@ module.exports = {
       afterOpening: 'never',
       beforeClosing: 'never'
     } ],
-    'react/jsx-uses-vars': 2,
-    'react/jsx-wrap-multilines': 2
+    'react/jsx-uses-vars': 2
   }
 };
