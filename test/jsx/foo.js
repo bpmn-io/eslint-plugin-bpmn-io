@@ -15,7 +15,7 @@ export default class Foo extends Component {
         {
           this.props.values.map((v) => {
             return (
-              <Nested.Val value={ v } />
+              <Nested.Val key={ v } value={ v } />
             );
           })
         }
