@@ -16,12 +16,15 @@ module.exports = {
     } ],
     'keyword-spacing': [ 2 ],
     'no-console': 0,
+    'no-multi-spaces': 2,
     'no-unused-vars': [ 2, { args: 'none' } ],
     'no-trailing-spaces': [ 2 ],
     'object-curly-spacing': [ 2, 'always' ],
     'semi': [ 2, 'always' ],
     'space-before-blocks': [ 2, 'always' ],
     'space-before-function-paren': [ 2, 'never' ],
+    'space-in-parens': [ 'error', 'never' ],
+    'spaced-comment': [ 2, 'always' ],
     'quotes': [ 2, 'single' ]
   }
 };
