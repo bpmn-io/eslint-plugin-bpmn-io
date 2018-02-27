@@ -7,7 +7,6 @@ module.exports = {
     'react/jsx-equals-spacing': 2,
     'react/jsx-indent': [ 2, 2 ],
     'react/jsx-indent-props': [ 2, 2 ],
-    'react/jsx-key': 2,
     'react/jsx-no-undef': 2,
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-pascal-case': 2,
