@@ -22,7 +22,11 @@ module.exports = {
     'object-curly-spacing': [ 2, 'always' ],
     'semi': [ 2, 'always' ],
     'space-before-blocks': [ 2, 'always' ],
-    'space-before-function-paren': [ 2, 'never' ],
+    'space-before-function-paren': [ 'error', {
+      'anonymous': 'never',
+      'named': 'never',
+      'asyncArrow': 'always'
+    } ],
     'space-in-parens': [ 'error', 'never' ],
     'spaced-comment': [ 2, 'always' ],
     'quotes': [ 2, 'single' ]

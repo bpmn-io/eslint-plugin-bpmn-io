@@ -18,6 +18,10 @@ export class Foo extends Bar {
     };
   }
 
+  other = async (a) => {
+    await this.b();
+  }
+
   longArgFn(
       hello, world,
       wowo, wooooooooorld) {
