@@ -26,6 +26,15 @@ export class Foo extends Bar {
       hello, world,
       wowo, wooooooooorld) {
 
+    const a = {};
+
+    const {
+      c,
+      d,
+      ...rest
+    } = a;
+
+    return rest;
   }
 
 }

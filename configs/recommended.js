@@ -17,7 +17,7 @@ module.exports = {
     'keyword-spacing': [ 2 ],
     'no-console': 0,
     'no-multi-spaces': 2,
-    'no-unused-vars': [ 2, { args: 'none' } ],
+    'no-unused-vars': [ 2, { args: 'none', ignoreRestSiblings: true } ],
     'no-trailing-spaces': [ 2 ],
     'object-curly-spacing': [ 2, 'always' ],
     'semi': [ 2, 'always' ],
