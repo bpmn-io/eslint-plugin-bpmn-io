@@ -29,6 +29,6 @@ module.exports = {
     } ],
     'space-in-parens': [ 'error', 'never' ],
     'spaced-comment': [ 2, 'always' ],
-    'quotes': [ 2, 'single' ]
+    'quotes': [ 2, 'single', { avoidEscape: true } ]
   }
 };

@@ -11,9 +11,12 @@ export class Foo extends Bar {
 
     const blub = Blub.blub(...d);
 
+    const foop = "Hello 'BLUB'";
+
     return {
       ...this.bar,
       blub,
+      foop,
       d
     };
   }
