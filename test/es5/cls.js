@@ -16,7 +16,7 @@ inherits(Foo, Bar);
  */
 Foo.prototype.foo = function(d) {
 
-  var [ _, blub ] = Blub.blub.apply(Blub, d);
+  var blub = Blub.blub.apply(Blub, d);
 
   return Object.assign({}, this.bar, {
     blub: blub,
