@@ -1,5 +1,7 @@
 # eslint-plugin-bpmn-io
 
+[![Build Status](https://travis-ci.com/bpmn-io/eslint-plugin-bpmn-io.svg?branch=master)](https://travis-ci.com/bpmn-io/eslint-plugin-bpmn-io)
+
 Commont lint rules for [bpmn.io](https://bpmn.io) projects.
 
 
