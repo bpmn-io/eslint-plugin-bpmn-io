@@ -6,6 +6,10 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.8.1
+
+* `FEAT`: support `eslint@6`
+
 ## 0.8.0
 
 * `FEAT`: allow unused variables, starting with `_`
