@@ -6,6 +6,10 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.8.2
+
+* `FIX`: provide explicit `ecmaVersion`
+
 ## 0.8.1
 
 * `FEAT`: support `eslint@6`
