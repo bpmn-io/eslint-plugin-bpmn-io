@@ -15,6 +15,7 @@ module.exports = {
       FunctionExpression: { body: 1, parameters: 2 }
     } ],
     'keyword-spacing': [ 2 ],
+    'no-bitwise': 2,
     'no-console': 0,
     'no-multi-spaces': 2,
     'no-unused-vars': [ 2, { args: 'none', ignoreRestSiblings: true, varsIgnorePattern: '^_' } ],
