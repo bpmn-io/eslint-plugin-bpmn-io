@@ -18,6 +18,7 @@ Foo.prototype.foo = function(d) {
 
   var blub = Blub.blub.apply(Blub, d);
 
+  // do bar
   return Object.assign({}, this.bar, {
     blub: blub,
     d: add(d, 1)
