@@ -15,6 +15,7 @@ module.exports = {
       FunctionExpression: { body: 1, parameters: 2 }
     } ],
     'keyword-spacing': [ 2 ],
+    'lines-around-comment': [ 2, { beforeBlockComment: true, beforeLineComment: true } ],
     'no-bitwise': 2,
     'no-console': 0,
     'no-multi-spaces': 2,
