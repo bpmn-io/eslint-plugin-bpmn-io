@@ -6,6 +6,10 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.10.0
+
+* `CHORE`: bump dependencies
+
 ## 0.9.0
 
 * `FEAT`: enforce empty line before comment ([#6](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/6)
