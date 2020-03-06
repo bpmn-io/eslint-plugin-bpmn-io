@@ -3,6 +3,7 @@ module.exports = {
     'react'
   ],
   rules: {
+    'jsx-quotes': [ 2, 'prefer-double' ],
     'react/jsx-curly-spacing': [ 2, { when: 'always' } ],
     'react/jsx-equals-spacing': 2,
     'react/jsx-indent': [ 2, 2 ],
