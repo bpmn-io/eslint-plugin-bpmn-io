@@ -11,7 +11,11 @@ export default class Foo extends Component {
   render() {
 
     return (
-      <Nested text={ this.props.text } onChange={ this.handleEvent }>
+      <Nested
+        text={ this.props.text }
+        onChange={ this.handleEvent }
+        key="value"
+      >
         {
           this.props.values.map((v) => {
             return (
