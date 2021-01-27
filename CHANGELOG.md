@@ -6,6 +6,11 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.12.0
+
+* `CHORE`: bump dependencies
+* `CHORE` mark as `eslint@7` compatible
+
 ## 0.11.0
 
 * `FEAT`: enforce double quotes in JSX
