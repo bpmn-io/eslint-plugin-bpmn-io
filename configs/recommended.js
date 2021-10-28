@@ -30,6 +30,7 @@ module.exports = {
       'asyncArrow': 'always'
     } ],
     'space-in-parens': [ 'error', 'never' ],
+    'space-infix-ops': 'error',
     'spaced-comment': [ 2, 'always' ],
     'quotes': [ 2, 'single', { avoidEscape: true } ]
   }
