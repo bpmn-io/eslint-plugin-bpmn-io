@@ -20,8 +20,8 @@ module.exports = {
     'no-bitwise': 2,
     'no-console': 0,
     'no-multi-spaces': 2,
-    'no-unused-vars': [ 2, { args: 'none', ignoreRestSiblings: true, varsIgnorePattern: '^_' } ],
     'no-trailing-spaces': [ 2 ],
+    'no-unused-vars': [ 2, { args: 'none', ignoreRestSiblings: true, varsIgnorePattern: '^_' } ],
     'object-curly-spacing': [ 2, 'always' ],
     'semi': [ 2, 'always' ],
     'space-before-blocks': [ 2, 'always' ],
@@ -30,9 +30,9 @@ module.exports = {
       'named': 'never',
       'asyncArrow': 'always'
     } ],
+    'spaced-comment': [ 2, 'always' ],
     'space-in-parens': [ 'error', 'never' ],
     'space-infix-ops': 'error',
-    'spaced-comment': [ 2, 'always' ],
     'quotes': [ 2, 'single', { avoidEscape: true } ]
   }
 };
