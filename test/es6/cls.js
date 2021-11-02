@@ -9,7 +9,7 @@ export class Foo extends Bar {
 
   foo = (d) => {
 
-    const [_, blub ] = Blub.blub(...d);
+    const [ _, blub ] = Blub.blub(...d);
 
     const foop = "Hello 'BLUB'";
 
