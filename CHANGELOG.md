@@ -6,6 +6,15 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.13.0
+
+* `FEAT`: add `space-infix-ops` rule ([#12](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/12))
+* `FEAT`: add `array-bracket-spacing` rule ([#12](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/12))
+
+### BREAKING CHANGES
+
+* Added space-related rules to `recommended` which may trigger new errors.
+
 ## 0.12.0
 
 * `CHORE`: bump dependencies
