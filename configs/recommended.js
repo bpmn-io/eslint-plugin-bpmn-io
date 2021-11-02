@@ -9,6 +9,7 @@ module.exports = {
     'eslint:recommended'
   ],
   rules: {
+    'array-bracket-spacing': [ 'error', 'always' ],
     'indent': [ 2, 2, {
       VariableDeclarator: { var: 2, let: 2, const: 3 },
       FunctionDeclaration: { body: 1, parameters: 2 },
