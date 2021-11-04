@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/bpmn-io/eslint-plugin-bpmn-io/workflows/CI/badge.svg)](https://github.com/bpmn-io/eslint-plugin-bpmn-io/actions?query=workflow%3ACI)
 
-Commont lint rules for [bpmn.io](https://bpmn.io) projects.
+Common lint rules for [bpmn.io](https://bpmn.io) projects.
 
 
 ## Use
