@@ -7,6 +7,7 @@ jobs:
       matrix:
         os: [ macos-latest, ubuntu-latest, windows-latest ]
         node-version: [ 10, 14 ]
+        eslint-version: [ '', 7 ]
 
     runs-on: ${{ matrix.os }}
 
@@ -28,5 +29,9 @@ jobs:
           ${{ runner.OS }}-
     - name: Install dependencies
       run: npm ci
+    - name: Install eslint@${{ matrix.eslint-version }}
+      if: matrix.eslint-version != ''
+      run: |
+        (cd test && npm install eslint@${{ matrix.eslint-version }})
     - name: Build
       run: npm run all

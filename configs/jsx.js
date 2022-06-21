@@ -18,5 +18,10 @@ module.exports = {
       beforeClosing: 'never'
     } ],
     'react/jsx-uses-vars': 2
+  },
+  parserOptions: {
+    babelOptions: {
+      plugins: [ '@babel/plugin-syntax-jsx' ]
+    }
   }
 };
