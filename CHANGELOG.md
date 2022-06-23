@@ -6,6 +6,10 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.14.0
+
+* `DEPS`: support `eslint@8` ([#14](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/14))
+
 ## 0.13.0
 
 * `FEAT`: add `space-infix-ops` rule ([#12](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/12))
