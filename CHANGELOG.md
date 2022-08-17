@@ -6,6 +6,11 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.14.1
+
+* `FIX`: do not read local `.babelrc` file
+* `DEPS`: bump dependencies
+
 ## 0.14.0
 
 * `DEPS`: support `eslint@8` ([#14](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/14))
