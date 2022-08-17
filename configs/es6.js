@@ -6,7 +6,10 @@ module.exports = {
       jsx: true
     },
     sourceType: 'module',
-    requireConfigFile: false
+    requireConfigFile: false,
+    babelOptions: {
+      babelrc: false
+    }
   },
   extends: [
     'plugin:bpmn-io/recommended'

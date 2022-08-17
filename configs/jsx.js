@@ -21,7 +21,8 @@ module.exports = {
   },
   parserOptions: {
     babelOptions: {
-      plugins: [ '@babel/plugin-syntax-jsx' ]
+      plugins: [ '@babel/plugin-syntax-jsx' ],
+      babelrc: false
     }
   }
 };
