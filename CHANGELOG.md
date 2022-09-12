@@ -6,6 +6,21 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.15.0
+
+* `FEAT`: use ES2018 syntax in `recommended` config
+* `FEAT`: drop `env#node` from `recommended` config
+* `FEAT`: drop `es5` and `es6` configs
+* `FEAT`: add `node` and `browser` configs
+* `DEPS`: drop `@babel/eslint-parser` and related deps
+* `DEPS`: drop `eslint@7` support
+
+### Breaking changes
+
+* ES2018 is the default syntax for `recommended`. If your source code uses newer syntax version, make sure to set `parserOptions#ecmaVersion` accordingly.
+* `es5` and `es6` configs are removed. Use `node` or `browser` instead, depending on your environment.
+* `eslint@7` is no longer supported. Upgrade to `eslint@8` to use the plugin.
+
 ## 0.14.1
 
 * `FIX`: do not read local `.babelrc` file

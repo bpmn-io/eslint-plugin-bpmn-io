@@ -7,7 +7,7 @@ export class Foo extends Bar {
     super(a, c);
   }
 
-  foo = (d) => {
+  foo(d) {
 
     const [ _, blub ] = Blub.blub(...d);
 
@@ -19,11 +19,11 @@ export class Foo extends Bar {
       foop,
       d
     };
-  };
+  }
 
-  other = async (a) => {
+  async other(a) {
     await this.b();
-  };
+  }
 
   longArgFn(
       hello, world,
@@ -38,6 +38,14 @@ export class Foo extends Bar {
     } = a;
 
     return rest;
+  }
+
+  async asyncIterator() {
+    const stream = new ReadableStream();
+
+    for await (const chunk of stream) {
+      console.log(chunk);
+    }
   }
 
 }

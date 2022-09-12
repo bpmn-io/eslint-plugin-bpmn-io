@@ -1,6 +1,9 @@
 module.exports = {
+  env: {
+    browser: true
+  },
   parserOptions: {
-    ecmaVersion: 5
+    sourceType: 'module'
   },
   extends: [
     'plugin:bpmn-io/recommended'

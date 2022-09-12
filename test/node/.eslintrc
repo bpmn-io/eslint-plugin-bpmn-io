@@ -1,6 +1,6 @@
 {
   "extends": [
-    "plugin:bpmn-io/es5"
+    "plugin:bpmn-io/node"
   ],
   "globals": {
     "Blub": false

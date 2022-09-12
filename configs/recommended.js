@@ -1,9 +1,9 @@
 module.exports = {
   env: {
-    node: true
+    es2018: true
   },
   parserOptions: {
-    ecmaVersion: 5
+    ecmaVersion: 2018
   },
   extends: [
     'eslint:recommended'
