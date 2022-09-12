@@ -7,7 +7,7 @@ jobs:
       matrix:
         os: [ macos-latest, ubuntu-latest, windows-latest ]
         node-version: [ 14, 16 ]
-        eslint-version: [ '', 7 ]
+        eslint-version: [ '' ]
 
     runs-on: ${{ matrix.os }}
 
