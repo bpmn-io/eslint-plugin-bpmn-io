@@ -20,9 +20,6 @@
   "author": "Nico Rehwaldt <nico.rehwaldt@camunda.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.18.10",
-    "@babel/eslint-parser": "^7.18.9",
-    "@babel/plugin-syntax-jsx": "^7.18.6",
     "eslint-plugin-mocha": "^10.1.0",
     "eslint-plugin-react": "^7.30.1"
   },

@@ -4,9 +4,9 @@ import { Component } from 'what';
 
 export default class Foo extends Component {
 
-  handleEvent(a, b) {
+  handleEvent = (a, b) => {
     console.log('event', a, b);
-  }
+  };
 
   render() {
 

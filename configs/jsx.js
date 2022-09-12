@@ -20,9 +20,8 @@ module.exports = {
     'react/jsx-uses-vars': 2
   },
   parserOptions: {
-    babelOptions: {
-      plugins: [ '@babel/plugin-syntax-jsx' ],
-      babelrc: false
+    ecmaFeatures: {
+      jsx: true
     }
   }
 };
