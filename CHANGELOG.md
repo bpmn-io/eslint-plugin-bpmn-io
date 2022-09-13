@@ -6,6 +6,10 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.15.1
+
+* `FIX`: use `env#node` in `mocha` config
+
 ## 0.15.0
 
 * `FEAT`: use ES2018 syntax in `recommended` config
