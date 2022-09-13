@@ -3,7 +3,8 @@ module.exports = {
     'mocha'
   ],
   env: {
-    mocha: true
+    mocha: true,
+    node: true
   },
   rules: {
     'mocha/no-exclusive-tests': 2
