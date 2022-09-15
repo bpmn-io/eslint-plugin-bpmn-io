@@ -32,6 +32,7 @@ We ship with a few blue prints:
 * `bpmn-io/jsx`: Use `jsx` in conjunction with `browser`
 * `bpmn-io/node`: Use for node based projects
 * `bpmn-io/mocha`: Use for libraries tested with `mocha` + `chai`
+* `bpmn-io/recommended`: Use for libraries where no environment is assumed
 
 
 ## License
