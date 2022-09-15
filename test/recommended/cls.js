@@ -1,16 +1,13 @@
-import { nodeImportedFn } from './node-imports';
+import { Bar } from './bar';
 
-const { Bar } = require('./bar');
 
-nodeImportedFn();
-
-module.exports = class Foo extends Bar {
+export class Foo extends Bar {
 
   constructor(a, b, { c }) {
     super(a, c);
   }
 
-  foo = (d) => {
+  foo(d) {
 
     const [ _, blub ] = Blub.blub(...d);
 
@@ -22,11 +19,11 @@ module.exports = class Foo extends Bar {
       foop,
       d
     };
-  };
+  }
 
-  other = async (a) => {
+  async other(a) {
     await this.b();
-  };
+  }
 
   longArgFn(
       hello, world,
@@ -43,4 +40,14 @@ module.exports = class Foo extends Bar {
     return rest;
   }
 
-};
+  async asyncIterator() {
+    const stream = [];
+
+    for await (const chunk of stream) {
+      test(chunk);
+    }
+  }
+
+}
+
+function test() {}
