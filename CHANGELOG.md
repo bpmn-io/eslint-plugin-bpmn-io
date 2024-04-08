@@ -6,6 +6,11 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 1.0.1
+
+* `DEPS`: support `eslint@9`
+* `DEPS`: update to `eslint-plugin-react@7.35.0`
+
 ## 1.0.0
 
 * `CHORE`: prohibit `inherits` in `browser` environment
