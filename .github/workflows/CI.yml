@@ -6,7 +6,7 @@ jobs:
     strategy:
       matrix:
         os: [ macos-latest, ubuntu-latest, windows-latest ]
-        node-version: [ 14, 16 ]
+        node-version: [ 18, 20, 22 ]
         eslint-version: [ 8, '' ]
 
     runs-on: ${{ matrix.os }}
