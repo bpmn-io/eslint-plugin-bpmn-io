@@ -1,9 +1,5 @@
 import { expect } from 'chai';
-import { pick } from '../lib/object';
-
-const diagramXML = require('./diagram.bpmn');
-
-console.log(diagramXML);
+import { pick } from 'min-dash';
 
 // derived from min-dash
 describe('object', function() {

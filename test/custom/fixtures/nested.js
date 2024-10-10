@@ -1,8 +1,10 @@
 import Nested from './nested';
 
+import React from 'react';
+
 import { Component } from 'what';
 
-export default class Foo extends Component {
+export default class Blub extends Component {
 
   handleEvent = (a, b) => {
     console.log('event', a, b);
@@ -19,7 +21,7 @@ export default class Foo extends Component {
         {
           this.props.values.map((v) => {
             return (
-              <Nested.Val value={ v } />
+              <Nested.Val value={ v } key={ v.key } />
             );
           })
         }
