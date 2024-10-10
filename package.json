@@ -2,7 +2,11 @@
   "name": "eslint-plugin-bpmn-io",
   "version": "1.0.1",
   "description": "Shared lint rules for bpmn.io projects",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./configs/*": "./configs/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/bpmn-io/eslint-plugin-bpmn-io.git"
@@ -20,14 +24,16 @@
   "author": "Nico Rehwaldt <nico.rehwaldt@camunda.com>",
   "license": "MIT",
   "dependencies": {
-    "eslint-plugin-mocha": "^10.1.0",
-    "eslint-plugin-react": "^7.35.0"
+    "eslint-plugin-mocha": "^10.5.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0"
   },
   "devDependencies": {
-    "eslint": "^9.0.0"
+    "eslint": "^9.11.1",
+    "min-dash": "^4.2.1"
   },
   "peerDependencies": {
-    "eslint": "^8 || ^9"
+    "eslint": "^9"
   },
   "files": [
     "configs",

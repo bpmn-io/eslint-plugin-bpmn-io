@@ -1,15 +1,15 @@
-module.exports = {
-  plugins: [
-    'mocha'
-  ],
-  env: {
-    mocha: true,
-    node: true
-  },
-  rules: {
-    'mocha/no-exclusive-tests': 2
-  },
-  globals: {
-    expect: true
+import mochaPlugin from 'eslint-plugin-mocha';
+
+export default [
+  mochaPlugin.configs.flat.recommended,
+  {
+    rules: {
+      'mocha/no-exclusive-tests': 'error'
+    },
+    languageOptions: {
+      globals: {
+        expect: false
+      }
+    }
   }
-};
+];
