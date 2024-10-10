@@ -1,14 +1,10 @@
-'use strict';
+import browser from './configs/browser.js';
+import node from './configs/node.js';
+import mocha from './configs/mocha.js';
+import jsx from './configs/jsx.js';
+import recommended from './configs/recommended.js';
 
-var browser = require('./configs/browser');
-var node = require('./configs/node');
-var mocha = require('./configs/mocha');
-var jsx = require('./configs/jsx');
-
-var recommended = require('./configs/recommended');
-
-
-module.exports = {
+export default {
   configs: {
     browser,
     node,

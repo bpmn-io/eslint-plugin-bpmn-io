@@ -1,11 +1,14 @@
-module.exports = {
-  env: {
-    node: true
-  },
-  extends: [
-    'plugin:bpmn-io/recommended'
-  ],
-  parserOptions: {
-    ecmaVersion: 'latest'
+import globals from 'globals';
+
+import recommended from './recommended.js';
+
+export default [
+  ...recommended,
+  {
+    languageOptions: {
+      globals: {
+        ...globals.node
+      }
+    }
   }
-};
+];

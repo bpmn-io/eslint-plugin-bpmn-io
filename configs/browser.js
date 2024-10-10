@@ -1,14 +1,22 @@
-module.exports = {
-  env: {
-    browser: true
+import globals from 'globals';
+
+import recommended from './recommended.js';
+
+export default [
+  ...recommended,
+  {
+    languageOptions: {
+      globals: {
+        ...globals.browser
+      }
+    }
   },
-  extends: [
-    'plugin:bpmn-io/recommended'
-  ],
-  rules: {
-    'no-restricted-imports': [ 2, {
-      'name': 'inherits',
-      'message': 'Use inherits-browser instead'
-    } ]
+  {
+    rules: {
+      'no-restricted-imports': ['error', {
+        'name': 'inherits',
+        'message': 'Use inherits-browser instead'
+      }]
+    }
   }
-};
+];
