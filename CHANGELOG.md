@@ -6,6 +6,18 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 2.0.0
+
+* `FEAT`: migrate to flat config ([#19](https://github.com/bpmn-io/eslint-plugin-bpmn-io/issues/19))
+* `FEAT`: turn into ES module
+* `FEAT`: base of `react:recommended` and `mocha:recommended` configs
+* `DEPS`: require `eslint@9`
+
+### Breaking Changes
+
+* Consume as an ES module ([#20](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/20))
+* Use alongside eslint@9 ([#20](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/20))
+
 ## 1.0.1
 
 * `DEPS`: support `eslint@9`
