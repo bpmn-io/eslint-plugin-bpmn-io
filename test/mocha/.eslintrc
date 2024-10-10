@@ -1,6 +1,0 @@
-{
-  "extends": [
-    "plugin:bpmn-io/recommended",
-    "plugin:bpmn-io/mocha"
-  ]
-}
