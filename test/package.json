@@ -2,11 +2,19 @@
   "name": "test",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "test": "eslint ."
+    "test": "npm-run-all test:*",
+    "test:browser": "eslint browser --config browser/eslint.config.js --report-unused-disable-directives",
+    "test:custom": "eslint custom --config custom/eslint.config.js --report-unused-disable-directives",
+    "test:jsx": "eslint jsx --config jsx/eslint.config.js --report-unused-disable-directives",
+    "test:mocha": "eslint mocha --config mocha/eslint.config.js --report-unused-disable-directives",
+    "test:node": "eslint node --config node/eslint.config.js --report-unused-disable-directives",
+    "test:recommended": "eslint recommended --config recommended/eslint.config.js --report-unused-disable-directives"
   },
   "devDependencies": {
-    "eslint": "^8.18.0",
-    "eslint-plugin-bpmn-io": "../"
+    "eslint": "^9.11.1",
+    "eslint-plugin-bpmn-io": "../",
+    "npm-run-all": "^4.1.5"
   }
 }
