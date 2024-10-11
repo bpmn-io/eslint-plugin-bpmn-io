@@ -4,6 +4,8 @@ export default [
   reactPlugin.configs.flat.recommended,
   {
     rules: {
+      'react/no-unknown-property': [ 'error', { ignore: [ 'class' ] } ],
+      'react/react-in-jsx-scope': 'off',
       'jsx-quotes': ['error', 'prefer-double'],
       'react/jsx-curly-spacing': ['error', { when: 'always' }],
       'react/jsx-equals-spacing': 'error',
