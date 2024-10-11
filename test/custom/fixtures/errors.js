@@ -34,7 +34,7 @@ export async function foo() {
 
   new URLSearchParams('foo=bar');
 
-  const component = <Foo_component />; // eslint-disable-line react/jsx-pascal-case, react/react-in-jsx-scope
+  const component = <Foo_component />; // eslint-disable-line react/jsx-pascal-case
 
   return {
     arrayBracketSpacing,

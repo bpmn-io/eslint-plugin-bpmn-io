@@ -6,6 +6,10 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 2.0.2
+
+* `FIX`: fine-tune `jsx` rules
+
 ## 2.0.1
 
 * `FIX`: fine-tune `mocha` rules ([#21](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/21))
