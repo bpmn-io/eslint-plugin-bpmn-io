@@ -6,6 +6,10 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 2.1.0
+
+* `FEAT`: support ES2022 per default ([#22](https://github.com/bpmn-io/eslint-plugin-bpmn-io/issues/24))
+
 ## 2.0.2
 
 * `FIX`: fine-tune `jsx` rules
