@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "npm-run-all test:*",
+    "test": "run-p test:*",
     "test:browser": "eslint browser --config browser/eslint.config.js --report-unused-disable-directives",
     "test:custom": "eslint custom --config custom/eslint.config.js --report-unused-disable-directives",
     "test:jsx": "eslint jsx --config jsx/eslint.config.js --report-unused-disable-directives",
