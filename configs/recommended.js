@@ -3,6 +3,11 @@ import js from '@eslint/js';
 export default [
   js.configs.recommended,
   {
+    languageOptions: {
+      ecmaVersion: 2022
+    }
+  },
+  {
     rules: {
       'array-bracket-spacing': ['error', 'always'],
       'indent': ['error', 2, {
@@ -14,7 +19,7 @@ export default [
       'lines-around-comment': ['error', {
         beforeBlockComment: true,
         beforeLineComment: true
-      } ],
+      }],
       'no-bitwise': 'error',
       'no-console': 'off',
       'no-constant-condition': ['error', {
@@ -27,7 +32,7 @@ export default [
         ignoreRestSiblings: true,
         varsIgnorePattern: '^_',
         caughtErrors: 'none'
-      } ],
+      }],
       'object-curly-spacing': ['error', 'always'],
       'semi': ['error', 'always'],
       'space-before-blocks': ['error', 'always'],
