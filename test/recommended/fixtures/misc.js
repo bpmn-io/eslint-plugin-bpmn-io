@@ -35,3 +35,6 @@ export async function foo() {
 export function unusedArgs(unusedArg) {
   const _unusedVar = true;
 }
+
+console.log('test');
+new AbortController();
