@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "eslint": "^9.39.2",
-    "min-dash": "^4.2.1"
+    "min-dash": "^5.0.0"
   },
   "peerDependencies": {
     "eslint": "^9"
