@@ -30,11 +30,11 @@
     "globals": "^17.3.0"
   },
   "devDependencies": {
-    "eslint": "^9.39.2",
+    "eslint": "^10.0.0",
     "min-dash": "^5.0.0"
   },
   "peerDependencies": {
-    "eslint": "^9"
+    "eslint": "^9 || ^10"
   },
   "files": [
     "configs",
