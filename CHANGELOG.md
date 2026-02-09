@@ -6,6 +6,12 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 2.3.0
+
+* `DEPS`: update to `eslint-plugin-mocha@11.2.0`
+* `DEPS`: update to `eslint-plugin-react@7.37.5`
+* `DEPS`: update to `globals@17.3.0`
+
 ## 2.2.0
 
 * `FEAT`: use shared node and browser globals in `recommended`
