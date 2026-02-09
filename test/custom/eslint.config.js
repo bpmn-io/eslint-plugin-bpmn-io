@@ -9,5 +9,12 @@ export default [
         'Blub': 'readonly'
       }
     }
+  },
+  {
+    rules: {
+      'react/jsx-tag-spacing': 'off',
+      'react/jsx-equals-spacing': 'off',
+      'react/jsx-curly-spacing': 'off'
+    }
   }
 ];
