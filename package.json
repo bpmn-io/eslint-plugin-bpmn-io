@@ -30,7 +30,7 @@
     "globals": "^17.3.0"
   },
   "devDependencies": {
-    "eslint": "^9.39.2",
+    "eslint": "^9.39.4",
     "min-dash": "^5.0.0"
   },
   "peerDependencies": {
