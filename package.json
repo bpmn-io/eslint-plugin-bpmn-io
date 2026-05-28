@@ -25,6 +25,7 @@
   "author": "Nico Rehwaldt <nico.rehwaldt@camunda.com>",
   "license": "MIT",
   "dependencies": {
+    "eslint-plugin-import-x": "^4.16.2",
     "eslint-plugin-mocha": "^11.3.0",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^17.6.0"
