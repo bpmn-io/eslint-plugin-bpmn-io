@@ -27,7 +27,7 @@
   "dependencies": {
     "eslint-plugin-mocha": "^11.3.0",
     "eslint-plugin-react": "^7.37.5",
-    "globals": "^17.3.0"
+    "globals": "^17.6.0"
   },
   "devDependencies": {
     "eslint": "^9.39.4",
