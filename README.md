@@ -48,6 +48,7 @@ Special purpose configurations:
 
 * `jsx`: Use `jsx` in conjunction with `browser`
 * `mocha`: Use for libraries tested with `mocha` + `chai`
+* `esm`: Use for libraries where ESM is the target
 
 
 ## License

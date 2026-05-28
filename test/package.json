@@ -10,7 +10,8 @@
     "test:jsx": "eslint jsx --config jsx/eslint.config.js --report-unused-disable-directives",
     "test:mocha": "eslint mocha --config mocha/eslint.config.js --report-unused-disable-directives",
     "test:node": "eslint node --config node/eslint.config.js --report-unused-disable-directives",
-    "test:recommended": "eslint recommended --config recommended/eslint.config.js --report-unused-disable-directives"
+    "test:recommended": "eslint recommended --config recommended/eslint.config.js --report-unused-disable-directives",
+    "test:esm": "eslint esm --config esm/eslint.config.js --report-unused-disable-directives"
   },
   "devDependencies": {
     "eslint": "^9.39.4",
