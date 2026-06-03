@@ -8,9 +8,10 @@ ___Note:__ Yet to be released changes appear here._
 
 ## 2.3.0
 
-* `DEPS`: update to `eslint-plugin-mocha@11.2.0`
+* `FEAT`: add `esm` configuration ([#30](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/30))
+* `DEPS`: update to `eslint-plugin-mocha@11.3.0`
 * `DEPS`: update to `eslint-plugin-react@7.37.5`
-* `DEPS`: update to `globals@17.3.0`
+* `DEPS`: update to `globals@17.6.0`
 
 ## 2.2.0
 
