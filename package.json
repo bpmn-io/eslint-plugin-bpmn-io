@@ -14,7 +14,7 @@
   },
   "scripts": {
     "all": "npm test",
-    "test": "npm test -w test"
+    "test": "npm test -w tests"
   },
   "keywords": [
     "eslint",
@@ -43,6 +43,7 @@
     "index.js"
   ],
   "workspaces": [
-    "test"
+    "test",
+    "test/esm"
   ]
 }
