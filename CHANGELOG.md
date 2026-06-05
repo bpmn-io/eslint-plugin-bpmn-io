@@ -6,6 +6,10 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 2.3.1
+
+* `FIX`: strictly validate ESM resolution with `esm` config
+
 ## 2.3.0
 
 * `FEAT`: add `esm` configuration ([#30](https://github.com/bpmn-io/eslint-plugin-bpmn-io/pull/30))
