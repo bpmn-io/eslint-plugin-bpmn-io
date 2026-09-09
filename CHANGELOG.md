@@ -6,6 +6,11 @@ All notable changes to [eslint-plugin-bpmn-io](https://github.com/bpmn-io/eslint
 
 ___Note:__ Yet to be released changes appear here._
 
+## 2.4.0
+
+* `DEPS`: update to `globals@17.12.0`
+* `DEPS`: update to `eslint-plugin-import-x@4.17.1`
+
 ## 2.3.1
 
 * `FIX`: strictly validate ESM resolution with `esm` config
